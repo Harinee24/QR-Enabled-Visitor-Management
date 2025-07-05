@@ -1,0 +1,57 @@
+.admin-dashboard {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-dashboard form {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-dashboard input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.admin-dashboard button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-dashboard button:hover {
+  background-color: #0056b3;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.visitor-link {
+    margin-left: 35%;
+}
+
+.visitor{
+    color: blue;
+}

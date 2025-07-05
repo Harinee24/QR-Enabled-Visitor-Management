@@ -1,0 +1,59 @@
+.qr-display {
+  text-align: center;
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.qr-display h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+.qr-display .qr-image {
+  margin-top: 15px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #007bff;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.qr-image {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.download-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #2980b9;
+}
+
+.back-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,58 @@
+.admin-dashboard {
+  max-width: 1000px;
+  margin: 50px auto;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.visitor-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.visitor-table th,
+.visitor-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.visitor-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.visitor-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admin-dashboard .admin-buttons .verify-button{
+    padding: 10px 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.admin-dashboard .admin-buttons .verify-button:hover{
+    background-color: #218838;
+}
+
+.admin-dashboard .admin-buttons .logout-button{
+    margin-left:570px;
+    background-color: #dc3545;
+}
+
+.admin-dashboard .admin-buttons .logout-button:hover{
+    background-color: #c82333;
+}
