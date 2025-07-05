@@ -27,16 +27,26 @@ A full-stack web application that enables visitors to register and generate QR c
 
 ```bash
 git clone https://github.com/your-username/qr-visitor-management.git
+```
 
-#start frontend
+### 2. Start frontend
+
+```bash
 cd frontend
 npm install
 npm start
+```
 
-#start backend
+### 3. Start backend
+
+```bash
 cd backend
 ./mvnw spring-boot:run
+```
 
-#access frontend in http://localhost:8080
-#access backend in http://localhost:3000
+### 4. Access endpoint
 
+```bash
+frontend in http://localhost:8080
+backend in http://localhost:3000
+```
